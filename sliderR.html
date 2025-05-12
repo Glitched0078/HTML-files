@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bootstrap example</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">      
+        <h2>carousel example</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li> 
+                <li data-target="#myCarousel" data-slide-to="2"></li>    
+            </ol>
+            <!--Wrapper for slides-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://media.timeout.com/images/105718842/image.jpg" alt="los angeles" style="width: 100%;">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/R.9f38b45c8745ab5021f0790b88d03731?rik=Y82ikYU5JFhR1g&riu=http%3a%2f%2fmedia.immediate.co.uk%2fvolatile%2fsites%2f2%2f2017%2f05%2fchicagoCITY2-credit-adam-alexander.jpg&ehk=LhpkUYOtslCUthp%2fpp7H%2bD2%2fZV06lrpXyn8UJr2ibb8%3d&risl=1&pid=ImgRaw&r=0" alt="chicago" style="width: 100%;">
+                </div>
+
+                <!--left and right controls-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Next</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>
