@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Carousel Example</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- indicators -->
+                <ol class="carousel-idnicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- wrapper for slides -->
+                 <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d05effbe-fe99-46ed-9071-8482c6edb9af/df4eqyj-2b952c4a-7c0a-4bc0-9e1e-5bd66f0fd257.png/v1/fill/w_830,h_963/springtrap_full_body_png_by_er_tiler_pyzik_2003_df4eqyj-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAzOSIsInBhdGgiOiJcL2ZcL2QwNWVmZmJlLWZlOTktNDZlZC05MDcxLTg0ODJjNmVkYjlhZlwvZGY0ZXF5ai0yYjk1MmM0YS03YzBhLTRiYzAtOWUxZS01YmQ2NmYwZmQyNTcucG5nIiwid2lkdGgiOiI8PTg5NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Za97EoCVlWT-ThWo0sawhSJV3O2Jj8iDB45b2dI3Jd8" alt="image1" style="width: 50%;"><h1>Springtrap</h1>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/673a531e-9dd9-4355-b7cb-ed6d6560991e/dgg9xs8-5f9d26c1-66b4-4ccb-8bb1-c5ba7e986b3e.png/v1/fill/w_1192,h_670/golden_freddy_render_by_bad131_dgg9xs8-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjczYTUzMWUtOWRkOS00MzU1LWI3Y2ItZWQ2ZDY1NjA5OTFlXC9kZ2c5eHM4LTVmOWQyNmMxLTY2YjQtNGNjYi04YmIxLWM1YmE3ZTk4NmIzZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0zVb5qKNUsZINtgM_sn8nwKXGXi_lCubv68ucVLWhRs" alt="image2" style="width: 50%;"><h1>Golden Freddy</h1>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e2ac7ea-14a4-474c-a452-b14a5b49a2e9/dbiupfh-b1f84476-f9f9-46fd-829e-31a9123ecef7.png/v1/fill/w_1024,h_1291,strp/withered_foxy_pose_by_bonniearttv_dbiupfh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI5MSIsInBhdGgiOiJcL2ZcLzJlMmFjN2VhLTE0YTQtNDc0Yy1hNDUyLWIxNGE1YjQ5YTJlOVwvZGJpdXBmaC1iMWY4NDQ3Ni1mOWY5LTQ2ZmQtODI5ZS0zMWE5MTIzZWNlZjcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.G61E-TOno2qgk05ac2cCHAeJhv5ELzL1GDt9AzqfP28" alt="image3" style="width: 50%;"><h1>Foxy</h1>
+                    </div>
+                 </div>
+
+                 <!-- left and right controls -->
+                  <a class="Left carousel-control" href=" " data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">next</span>
+                  </a>
+            </div>
+        </div>
+    </body>
+</html>
