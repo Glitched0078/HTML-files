@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
     <style>
         body {
-            background-color: black;
+            background-color: white;
         }
         .text1 {
             color: brown;
@@ -26,13 +32,28 @@
         .p2 {
             font-family: Arial, Helvetica, sans-serif;
         }
+        .example1 {
+            width: 1000px;
+            padding: 0px 10px 20px 40px;
+            margin: 60px 60px;
+            text-decoration: black;
+
+            float: none;
+        }
     </style>
     <script>
         var account_balance = parseInt(current_balance_el.innerText) + parseInt(intered_amount_el);
         current_balance_el.innerText = parseInt(account_balance);
     </script>
     <body>
-        <h1>Bank App</h1>
+        <div class="example1 p1"><h1>Bank App</h1></div>
+
+        <div class="container p-8 border p2">
+            <h3>Enter Transaction Amount</h3>
+            <textarea>0</textarea>
+            <button>Credit</button> <button>Debit</button>
+            <h8>Your Account Balance is : Rs.67</h8>
+        </div>
         
     </body>
 </html>
